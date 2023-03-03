@@ -22,10 +22,8 @@ after_script:
 deploy:
   skip_cleanup: true
   provider: elasticbeanstalk
-  access_key_id: 
-    secure: "AKIAXS2HRFIGLTQC5SMW"
-  secret_access_key: 
-    secure: "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"
+  access_key_id: "AKIAXS2HRFIGLTQC5SMW"
+  secret_access_key: "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"
   region: "us-west-2"
   app: "django-tutorial"
   env: "django-env"
